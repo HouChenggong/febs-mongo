@@ -1,0 +1,25 @@
+server:
+  port: 8086
+  tomcat:
+    uri-encoding: utf-8
+
+spring:
+  profiles:
+    active: dev
+  # mongodb 连接
+  data:
+    mongodb:
+      ## 集成事务的话，其实只连接主库就可以了
+      uri: mongodb://192.168.1.100:27020,192.168.1.100:27022,192.168.1.100:27021/cobot_shiro_web?replicaSet=cobotWeb&connectTimeoutMS=30000
+  #      database: one
+
+  thymeleaf:
+    cache: false
+
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+  aop:
+    proxy-target-class: true
+

@@ -1,0 +1,6 @@
+{"_id":"409032193923624960","parentId":"0","deptName":"库博团队","orderNum":{"$numberLong":"1"},"createTime":{"$date":"2019-12-30T06:29:00.113Z"},"level":0,"_class":"cn.net.cobot.mongo.entity.DeptMongo"}
+{"_id":"409032309552197632","parentId":"0","deptName":"北斗团队","orderNum":{"$numberLong":"2"},"createTime":{"$date":"2019-12-30T06:29:27.681Z"},"level":0,"_class":"cn.net.cobot.mongo.entity.DeptMongo"}
+{"_id":"409033626790146048","parentId":"409032193923624960","deptName":"测试小组","orderNum":{"$numberLong":"1"},"createTime":{"$date":"2019-12-30T06:34:41.735Z"},"_class":"cn.net.cobot.mongo.entity.DeptMongo"}
+{"_id":"409033694540738560","parentId":"409032193923624960","deptName":"开发小组","orderNum":{"$numberLong":"2"},"createTime":{"$date":"2019-12-30T06:34:57.888Z"},"_class":"cn.net.cobot.mongo.entity.DeptMongo"}
+{"_id":"409033761314058240","parentId":"409033694540738560","deptName":"conet小组","orderNum":{"$numberLong":"1"},"createTime":{"$date":"2019-12-30T06:35:13.808Z"},"_class":"cn.net.cobot.mongo.entity.DeptMongo"}
+{"_id":"409033816037142528","parentId":"409033694540738560","deptName":"cobot小组","orderNum":{"$numberLong":"2"},"createTime":{"$date":"2019-12-30T06:35:26.855Z"},"_class":"cn.net.cobot.mongo.entity.DeptMongo"}
